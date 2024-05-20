@@ -10,7 +10,6 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from htmlTemplates import css, bot_template, user_template
 
-
 import os
 load_dotenv()
 # Get the value of OPENAI_API_KEY from environment variables
